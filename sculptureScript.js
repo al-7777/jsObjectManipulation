@@ -21,4 +21,8 @@ for (const sculpture of sculptureList) {
   };
 };
 
-console.log(sculptureListLengths);
+for (const sculpture in sculptureListLengths) {
+  console.log(sculptureListLengths[sculpture]);
+}
+
+//console.log(Object.values(sculptureListLengths));
